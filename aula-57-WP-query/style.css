@@ -1,0 +1,442 @@
+/*
+Theme Name: Blog iMedia
+Description: Tema criado para o curso do iMedia
+Author: Fellyph Cintra
+Version: 1.0
+*/
+
+.main {
+  font-family: 'Roboto',sans-serif;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post {
+  margin-bottom: 3em;
+}
+
+.title {
+  font-family: 'ABeeZee',sans-serif;
+  font-size: 2em;
+}
+
+.title a,
+.title a:visited {
+  color: #000;
+  text-decoration: none;
+  padding: 0.1em 0.3em;
+  display: block;
+}
+
+.title a:hover {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+}
+
+.content {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0.9em 0;
+}
+
+
+.content .info {
+  background: #666;
+  color: #fff;
+  padding: 0.5em;
+  margin: 0.9em 0;
+  text-align: center;
+}
+
+.info a {
+  color: white;
+  text-decoration: none;
+  padding: 0.3em;
+}
+
+.info a:hover {
+  background: white;
+  color: #666
+}
+
+/*
+ * =================== HEADER ===================
+ */
+
+.main-header {
+  color: #FFF;
+  margin-bottom: 1em;
+  display: flex;
+  height: 185px;
+  background-color: #333;
+}
+
+.main-header .logo {
+  margin-right: 1.5em;
+  padding: 0;
+  background: #DF2E2D;
+  height: 185px;
+  width: 185px;
+}
+
+.main-header .text {
+  padding: 1em 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-header .title,
+.main-header .sub-title {
+  text-shadow: 2px 2px #333;
+}
+
+.main-header .title {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.main-header .sub-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/*
+ * ================== MENU =====================
+ */
+
+.main-menu {
+  margin-bottom: 2em;
+  display: flex;
+}
+
+.main-menu .menu {
+  flex: 1;
+  background: #fff;
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main-menu a {
+  font-family: 'ABeeZee',sans-serif;
+  color: #000;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.main-menu a:hover {
+  color: #FFF;
+  background: #000;
+}
+
+.main-menu ul {
+  padding: 0;
+}
+
+/*
+ * ================== searchform =====================
+ */
+
+
+.searchform {
+  background: #fff;
+  margin-left: 0.5em;
+  width: 25%;
+  padding: 0.5em;
+  display: flex;
+}
+
+.searchform .submit {
+  background: #999;
+  color: #fff;
+  padding: 0.3em 1em;
+}
+
+.searchform .content {
+  flex: 1;
+}
+
+.searchform .content,
+.searchform .submit {
+  border: none;
+  min-height: 20px;
+  font-size: 12px;
+  margin: 0;
+  border: 1px solid #999;
+}
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+
+.main-footer {
+  border-top: 1px solid #ccc;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+
+.post .title{
+    border-bottom: 3px solid #666;
+    background: #fff;
+}
+
+/*
+ * =================== HOME ===================
+ */
+
+ .home .post{
+   display: flex;
+ }
+
+ .home .format-video {
+   background: #000;
+   padding: 1em;
+   display: block;
+   text-align: center;
+ }
+
+ .home .format-video .title {
+   margin-bottom: 0;
+ }
+
+ .home .content {
+   margin-top: 0;
+   width: calc(100% - 90px);
+ }
+
+.home .title {
+  margin-top: 0;
+}
+
+.home .time-post {
+   background: #000;
+   font-size: 1em;
+   color: #fff;
+   padding: 1em;
+   width: 90px;
+   height: 20px;
+   text-align: center;
+   margin-right: 1em;
+ }
+
+/*
+ * =================== 404 ========================
+ */
+
+.page-404,
+.alert-page {
+  text-align: center;
+}
+
+/*
+ * =================== content-thumb ========================
+ */
+
+.content-thumb .row {
+  display: flex;
+  background: white;
+  padding: 1em;
+}
+
+.content-thumb .row .thumb-post {
+  margin-right: 1.5em;
+}
+
+.content-thumb .time-post {
+  margin: 0;
+}
+
+.content-thumb .time-post,
+.content-thumb .info {
+  background: transparent;
+  color: #666;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 0.8em;
+}
+
+.content-thumb .info a {
+  color: #666;
+}
+
+.content-thumb .post-info {
+  display: flex;
+  margin-top: 2em;
+  background: white;
+  padding: 1em;
+}
+
+.content-thumb .info {
+  flex: 1;
+  margin: 0 0 0 2em;
+  height: 20px;
+  text-align: center;
+}
+
+.home .content-thumb .content {
+  width: 100%;
+}
+
+.home .content-thumb {
+  display: block;
+}
+
+/*
+ * =============================== content box ==========================
+ */
+
+.box {
+ background: #fff;
+ padding: 1em;
+}
+
+.box .title {
+ font-size: 1.5em;
+ display: block;
+ border: none;
+}
+
+.box p,
+.box .title {
+  margin: 0 0 0.8em;
+}
+
+.box .thumb-box {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.box .content {
+ margin-left: 1em;
+}
+
+.column-4 .box{
+  vertical-align: top;
+  box-sizing: border-box;
+  display: flex;
+}
+
+/*
+ * =============================== sidebar ==============================
+ */
+
+.with-sidebar {
+  width: calc(100% - 265px);
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.sidebar {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sidebar .title {
+  border-bottom: 3px solid #666;
+  font-size: 1.2em;
+  padding-bottom: 0.1em;
+}
+
+.sidebar .widget {
+  background: white;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.sidebar ul {
+  padding-left: 1em;
+}
+
+.sidebar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/*
+ * ======================== Single =========================
+ */
+
+.post-single .content {
+  background: white;
+  padding: 1em;
+}
+
+
+/*
+ * ======================== pagination =========================
+ */
+
+.pagination {
+  text-align: center;
+  background: white;
+  font-family: 'ABeeZee',sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination .previous,
+.pagination .next {
+  flex: 0;
+  white-space: nowrap;
+}
+
+.pagination a {
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.pagination a:hover {
+  color: white;
+  background: black;
+}
+
+
+/*
+ * ==================== featured =======================
+ */
+
+.featured .new {
+  background: #f1f1f1;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.featured .content {
+  width: 100%;
+}
+
+.featured .thumb-box {
+  margin-right: 1em;
+}
+
+.featured .title {
+  background: transparent;
+  border-bottom-color: rgba(223,46,45,0.5);
+}
+
+
+.title-section {
+  font-family: 'ABeeZee',sans-serif;
+  background: #fff;
+  color: #666;
+  font-size: 2em;
+  padding: 0.5em;
+}

@@ -1,0 +1,46 @@
+.main {
+  font-family: 'Roboto',sans-serif;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #000;
+  color: #FFF;
+  padding: 1.5em;
+  margin-bottom: 3em;
+}
+
+.main-header .title,
+.main-header .sub-title {
+  text-align: center;
+}
+
+.main-header .title {
+  font-size: 80px;
+  margin-bottom: 0.5em;
+}
+
+.post {
+  margin-bottom: 2em;
+}
+
+.title {
+  font-family: 'ABeeZee',sans-serif;
+}
+
+.content {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: .9em 0;
+}
+
+.content::after {
+  content: "";
+  display: block;
+  border-bottom: 3px red solid;
+  width: 150px;
+  margin: 1em auto;
+}

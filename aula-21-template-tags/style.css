@@ -1,0 +1,129 @@
+/*
+Theme Name: Blog iMedia
+Description: Tema criado para o curso do iMedia
+Author: Fellyph Cintra
+Version: 1.0
+*/
+
+.main {
+  font-family: 'Roboto',sans-serif;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #000;
+  color: #FFF;
+  padding: 1.5em;
+  margin-bottom: 3em;
+}
+
+.main-header .title,
+.main-header .sub-title {
+  text-align: center;
+}
+
+.main-header .title {
+  font-size: 80px;
+  margin-bottom: 0.5em;
+}
+
+.post {
+  margin-bottom: 2em;
+}
+
+.title {
+  font-family: 'ABeeZee',sans-serif;
+  font-size: 2em;
+}
+
+.title a,
+.title a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+}
+
+.content {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0.9em 0;
+}
+
+
+.content .info {
+  background: #a1a1a1;
+  color: #fff;
+  padding: 1em;
+  margin: 0.9em 0;
+  text-align: center;
+}
+
+.info a {
+  color: white;
+}
+
+.info a:hover {
+  text-decoration: none;
+}
+
+.content::after {
+  content: "";
+  display: block;
+  border-bottom: 3px red solid;
+  width: 150px;
+  margin: 1em auto;
+}
+
+.main-footer {
+  border-top: 1px solid #ccc;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+
+/*
+ * =================== Single ===================
+ */
+
+ .home .post{
+   display: flex;
+ }
+
+ .home .content {
+   margin-top: 0;
+   width: calc(100% - 90px);
+ }
+
+.home .title {
+  margin-top: 0;
+}
+
+.home .time-post {
+   background: #000;
+   font-size: 1em;
+   color: #fff;
+   padding: 1em;
+   width: 90px;
+   height: 20px;
+   text-align: center;
+   margin-right: 1em;
+ }
+
+
+
+/*
+ * =================== Single ===================
+ */
+
+.post-single {
+
+}
